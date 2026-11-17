@@ -1,0 +1,43 @@
+{
+  "name": "Jozi",
+  "email": "",
+  "github": "",
+  "instagram": "",
+  "location": {"cs": "Brno, Česko", "en": "Brno, Czechia"},
+  "bio": {
+    "cs": "Jsem středoškolák, kterého baví fyzika, materiály a technika. Zajímá mě, jak přenést nápad z papíru do skutečného světa — od elektroniky a prototypů až po vlastní projekt.",
+    "en": "I’m a secondary school student interested in physics, materials and engineering. I like taking ideas from paper into the real world — through electronics, prototypes and independent projects."
+  },
+  "projects": [
+    {
+      "slug": "h2car", "number": "01", "visual": "car", "category": "engineering", "featured": true,
+      "title": {"cs": "H2Car / Racek", "en": "H2Car / Racek"},
+      "label": {"cs": "Týmový projekt", "en": "Team project"},
+      "summary": {"cs": "Malé auto. Velké technické výzvy. Týmový projekt propojující konstrukci, elektroniku a komunikaci.", "en": "A small car. Big engineering challenges. A team project connecting mechanical design, electronics and communication."},
+      "role": {"cs": "Vedení týmu, komunikace a prezentace", "en": "Team leadership, communication and presentations"},
+      "tags": ["Hardware", "Teamwork", "Prototyping"],
+      "paragraphs": {"cs": ["H2Car je pro mě příležitost poznat, jak spolu souvisejí technická rozhodnutí, práce v týmu a fungování celého projektu.", "V týmu Racek se věnuji vedení, komunikaci a prezentaci projektu. Baví mě spojovat technický pohled s tím, jak projekt vysvětlit ostatním a získat pro něj podporu."], "en": ["H2Car gives me a chance to explore the connection between engineering decisions, teamwork and running a project.", "Within team Racek, I focus on leadership, communication and presenting the project. I enjoy connecting the technical perspective with explaining our work and building support for it."]},
+      "link": ""
+    },
+    {
+      "slug": "hackpad", "number": "02", "visual": "pad", "category": "electronics", "featured": true,
+      "title": {"cs": "HackPad", "en": "HackPad"},
+      "label": {"cs": "Osobní projekt", "en": "Personal project"},
+      "summary": {"cs": "Vlastní ovládací panel. Šest kláves, otočný enkodér a malý displej pro každodenní zkratky.", "en": "A custom control pad. Six keys, a rotary encoder and a small display for everyday shortcuts."},
+      "role": {"cs": "Návrh elektroniky a ovládání", "en": "Electronics and interaction design"},
+      "tags": ["RP2040", "PCB", "Python / KMK"],
+      "paragraphs": {"cs": ["Návrh malého makropadu postaveného na Seeed XIAO RP2040. Šest kláves doplňuje enkodér EC11, OLED displej a adresovatelné LED.", "Cílem jsou snadno dostupné zkratky jako kopírování, vložení, uložení nebo ovládání přehrávání. Enkodér slouží k ovládání hlasitosti. Firmware je navržený pro KMK; fyzické ověření hardwaru je samostatný další krok."], "en": ["A compact macropad design based on the Seeed XIAO RP2040. Six keys are complemented by an EC11 encoder, an OLED display and addressable LEDs.", "The goal is quick access to shortcuts such as copy, paste, save and playback controls. The encoder handles volume. Firmware is designed around KMK; physical hardware validation is a separate next step."]},
+      "link": ""
+    },
+    {
+      "slug": "nanoelektronika", "number": "03", "visual": "nano", "category": "science", "featured": true,
+      "title": {"cs": "Svět v nanoměřítku", "en": "Thinking at the nanoscale"},
+      "label": {"cs": "Oblast zájmu", "en": "Area of interest"},
+      "summary": {"cs": "2D materiály, tranzistory a kvantové jevy. Hledání otázek, které stojí za experiment.", "en": "2D materials, transistors and quantum phenomena. Looking for questions worth an experiment."},
+      "role": {"cs": "Samostudium a hledání výzkumného tématu", "en": "Independent study and research exploration"},
+      "tags": ["2D materials", "Physics", "Nanoelectronics"],
+      "paragraphs": {"cs": ["Zajímá mě fyzika materiálů a to, co se změní, když se elektronika přiblíží rozměrům jednotlivých vrstev atomů. Mezi témata, která zkoumám při samostudiu, patří MoS₂, WS₂ a nové typy tranzistorů.", "Tato stránka představuje směr mého zájmu, nikoli dokončený výzkum. Chci propojit pochopení fyzikálních principů s experimentem a praktickým využitím."], "en": ["I’m interested in materials physics and what changes when electronics approaches the scale of individual atomic layers. My independent reading includes MoS₂, WS₂ and emerging transistor concepts.", "This page describes an area I’m exploring, rather than completed research. I want to connect an understanding of physical principles with experiments and practical applications."]},
+      "link": ""
+    }
+  ]
+}
